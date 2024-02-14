@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>"Dear future generations: Please accept our apologies. We were rolling drunk on petroleum."</p>
+<p>-- Kurt Vonnegut</p>
+
+<style>
+	p {
+		text-align: center;
+		font-family: 'Courier New', Courier, monospace;
+	}
+</style>
