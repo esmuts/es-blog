@@ -1,3 +1,5 @@
-<h1>Talks</h1>
+<script>
+    import Talks from "./talks.md";
+</script>
 
-<p>All my talks and presentations.</p>
+<Talks />

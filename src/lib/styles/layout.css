@@ -29,4 +29,10 @@ ul {
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 	padding-inline-start: 0;
-  }
+}
+
+/* Link styling */
+
+a {
+	color: #51f5b6;
+}

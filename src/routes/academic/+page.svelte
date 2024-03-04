@@ -1,3 +1,5 @@
-<h1>Academic</h1>
+<script>
+	import AcademicCV from './academic-cv.md';
+</script>
 
-<p>My academic publications.</p>
+	<AcademicCV />
