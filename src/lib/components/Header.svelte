@@ -1,5 +1,5 @@
 <header>
-	<a href="/">Home</a>
+	<h1><a href="/">Eckard Smuts</a></h1>
 	<nav>
 		<ul>
 			<li><a href="/about">About</a></li>
@@ -13,10 +13,11 @@
 
 <style>
 	header {
-		padding: 1rem;
+		grid-row: 1;
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	ul {

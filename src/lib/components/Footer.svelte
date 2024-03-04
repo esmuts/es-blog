@@ -1,15 +1,15 @@
 <footer>
 	<nav>
-		<a href="mailto:eckardsmuts@gmail.com">Contact</a>
+		<a href="mailto:eckardsmuts@gmail.com">I'm a little footie</a>
 	</nav>
 </footer>
 
 <style>
 	footer {
-		padding: 0.5rem;
+		grid-row: 3;
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
 	}
 
 	a {

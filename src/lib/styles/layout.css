@@ -1,0 +1,32 @@
+/** Again, I am getting a great deal from Josh Collinsworth's SvelteKit blog starter kit:
+/* https://github.com/josh-collinsworth/sveltekit-blog-starter/blob/main/static/css/layout.css
+*/
+
+body {
+	max-width: 1280px;
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0 auto;
+	line-height: 1.5;
+	display: grid;
+	gap: 3vmin;
+	grid-template-rows: 15vh minmax(60vh, auto) 15vh;
+	background: #1d1d2f;
+	color: #eef;
+}
+
+main {
+	grid-row: 2;
+	padding: 5vmin;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Overrides default list margin and padding */
+ul {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	padding-inline-start: 0;
+  }
