@@ -1,3 +1,5 @@
-<h1>Fiction</h1>
+<script>
+    import Fiction from './fiction.md';
+</script>
 
-<p>Short stories I've published.</p>
+<Fiction />

@@ -9,9 +9,8 @@
 
 <style>
 	article {
-		margin-top: 10vh;
-		padding: 2rem;
-		
+		margin-top: 10vmin;
+		margin-bottom: 10vmin;
 		text-align: center;
 	}
 </style>

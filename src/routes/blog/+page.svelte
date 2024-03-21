@@ -1,20 +1,50 @@
+<!-- Renders blog list -->
+
 <script>
+	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
 </script>
 
-<h1>Blog</h1>
-
 <ul>
 	{#each data.posts as post}
-		<li>
-			<h2>
-				<a href={post.path}>
-					<!-- 'title' property originates in the frontmatter for the .md file. -->
-					{post.meta.title}
-				</a>
-			</h2>
-			<!-- 'date' property also originates in the frontmatter for the .md file. -->
-			Published {post.meta.date}
-		</li>
+		<p>
+			<li>
+				<div class="image-box">
+					<img src={post.meta.image} alt={post.meta.alt} />
+				</div>
+				<div>
+					<i><small>{post.meta.date}</small></i>
+					<br />
+					<a href={post.path}>
+						{post.meta.title}
+					</a>
+				</div>
+			</li>
+		</p>
 	{/each}
 </ul>
+
+<style>
+	li {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.image-box {
+		width: 40px;
+		min-width: 40px;
+		aspect-ratio: 1/1;
+	}
+
+	img {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+</style>

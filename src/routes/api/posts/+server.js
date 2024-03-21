@@ -1,3 +1,5 @@
+// Fetches and sorts all the blog posts.
+
 import { fetchMarkdownPosts } from '$lib/utils';
 import { json } from '@sveltejs/kit';
 

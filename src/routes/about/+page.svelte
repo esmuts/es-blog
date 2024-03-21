@@ -1,9 +1,8 @@
-<script>
-	import src from '$lib/assets/profile-square.webp';
-</script>
+<!-- Renders About page -->
 
-<img {src} alt="Eckard Smuts" />
-<br>
+<script>
+	import src from '$lib/assets/early-morning-hike.jpg';
+</script>
 
 <p>
 	I'm a Lecturer in the Department of English at Stellenbosch University. My research explores the
@@ -13,19 +12,19 @@
 	J.M. Coetzee. From time to time I write short stories, and I try to never be too far away from the
 	sea.
 </p>
-<p>Contact: eckards@sun.ac.za</p>
+
+<center><img {src} alt="Eckard Smuts profile pic" /></center>
+
+<center><p>Contact: eckards@sun.ac.za</p></center>
 
 <style>
 	img {
+		margin-top: 1rem;
 		width: 100%;
 		max-width: 340px;
-		padding: 2vmin;
-        align-self: center;
 	}
 
-    p {
-        padding-left: 5vmin;
-        padding-right: 5vmin;
-    }
-
+	p {
+		padding: 1vmin;
+	}
 </style>

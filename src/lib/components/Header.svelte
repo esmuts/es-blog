@@ -1,5 +1,9 @@
+<script>
+	import Hamburger from './Hamburger.svelte';
+</script>
+
 <header>
-	<h1><a href="/">Eckard Smuts</a></h1>
+	<h1><a href="/">eckard smuts</a></h1>
 	<nav>
 		<ul>
 			<li><a href="/about">About</a></li>
@@ -10,7 +14,6 @@
 		</ul>
 	</nav>
 </header>
-
 <style>
 	header {
 		grid-row: 1;
@@ -18,6 +21,10 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	h1 {
+		font-size: calc(2rem + 2vh);
 	}
 
 	ul {

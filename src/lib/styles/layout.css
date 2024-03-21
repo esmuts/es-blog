@@ -1,12 +1,16 @@
-/** Again, I am getting a great deal from Josh Collinsworth's SvelteKit blog starter kit:
+/** 
+/* Again, I am getting a great deal from Josh Collinsworth's SvelteKit blog starter kit:
 /* https://github.com/josh-collinsworth/sveltekit-blog-starter/blob/main/static/css/layout.css
 */
 
 body {
-	max-width: 1280px;
+	font-family: 'Atkinson Hyperlegible';
+	font-size: calc(1rem + 0.25vh);
+	max-width: 1024px;
 	min-width: 320px;
 	min-height: 100vh;
 	margin: 0 auto;
+	padding: 5vmin;
 	line-height: 1.5;
 	display: grid;
 	gap: 3vmin;
@@ -17,7 +21,7 @@ body {
 
 main {
 	grid-row: 2;
-	padding: 5vmin;
+	padding: 6vmin;
 	display: flex;
 	flex-direction: column;
 }
