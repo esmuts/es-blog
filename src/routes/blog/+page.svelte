@@ -7,7 +7,7 @@
 
 <ul>
 	{#each data.posts as post}
-		<p>
+		
 			<li>
 				<div class="image-box">
 					<img src={post.meta.image} alt={post.meta.alt} />
@@ -20,7 +20,7 @@
 					</a>
 				</div>
 			</li>
-		</p>
+		
 	{/each}
 </ul>
 
@@ -35,7 +35,6 @@
 	.image-box {
 		width: 40px;
 		min-width: 40px;
-		aspect-ratio: 1/1;
 	}
 
 	img {

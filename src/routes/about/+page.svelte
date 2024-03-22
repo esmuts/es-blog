@@ -20,7 +20,7 @@
 <style>
 	img {
 		margin-top: 1rem;
-		width: 100%;
+		width: 90%;
 		max-width: 340px;
 	}
 
