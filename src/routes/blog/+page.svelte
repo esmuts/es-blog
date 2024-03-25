@@ -1,9 +1,10 @@
 <!-- Renders blog list -->
-
 <script>
 	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
 </script>
+
+<h3>Blog Posts</h3>
 
 <ul>
 	{#each data.posts as post}
@@ -23,6 +24,7 @@
 		
 	{/each}
 </ul>
+<br />
 
 <style>
 	li {

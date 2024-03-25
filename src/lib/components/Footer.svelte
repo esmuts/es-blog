@@ -2,6 +2,7 @@
 	import instaSVG from '$lib/assets/svg/instagram.svg';
 	import linkedinSVG from '$lib/assets/svg/linkedin.svg';
 	import blueskySVG from '$lib/assets/svg/bluesky.svg';
+	import githubSVG from '$lib/assets/svg/github.svg';
 </script>
 
 <footer>
@@ -22,11 +23,23 @@
 					><img src={blueskySVG} alt="visit Bluesky" /></a
 				>
 			</li>
+			<li>
+				<a href="https://github.com/esmuts"><img src={githubSVG} alt="visit Github" /></a>
+			</li>
 		</ul>
 	</nav>
 </footer>
 
 <style>
+
+	footer {
+		grid-row: 3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
 	ul {
 		list-style-type: none;
 		display: flex;
@@ -34,22 +47,29 @@
 	}
 
 	img {
-		height: 8vmin;
-		width: 8vmin;
+		height: 6vmin;
+		width: 6vmin;
 		/* Color to filter converter: https://codepen.io/sosuke/pen/Pjoqqp */
 		filter: brightness(0) saturate(100%) invert(94%) sepia(90%) saturate(7346%) hue-rotate(180deg)
 			brightness(108%) contrast(103%);
 	}
 
-	footer {
-		grid-row: 3;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+	
 
 	a {
 		text-decoration: none;
 		color: inherit;
 	}
+
+@media screen and (min-width: 768px) {
+	ul {
+		gap: 2vmin;
+	}
+	
+	img {
+		height: 3vmin;
+		width: 3vmin;
+	}
+}
+
 </style>

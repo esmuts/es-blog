@@ -1,4 +1,4 @@
-/* Loads first 10 blog posts for use in feed on Home page */
+/* Loads first 10 blog posts for use in feed on home page. */
 
 // 'fetch' is a special argument available to the 'load' function in SvelteKit.
 export const load = async ({ fetch }) => {

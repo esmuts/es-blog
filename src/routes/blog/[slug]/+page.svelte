@@ -16,21 +16,21 @@
 		<svelte:component this={data.content} />
 	</span>
 </article>
+<br />
 
 <style>
-
 	img {
 		width: 100%;
 		max-width: 340px;
 	}
 
-@media screen and (min-width: 768px) {
-	img {
-		margin-right: 4vmin;
-		margin-bottom: 1vmin;
-		width: 50%;
-		max-width: 340px;
-		float: left;
+	@media screen and (min-width: 768px) {
+		img {
+			margin-right: 4vmin;
+			margin-bottom: 1vmin;
+			width: 50%;
+			max-width: 340px;
+			float: left;
+		}
 	}
-}
 </style>

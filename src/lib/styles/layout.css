@@ -13,7 +13,7 @@ body {
 	padding: 5vmin;
 	line-height: 1.5;
 	display: grid;
-	grid-template-rows: 15vh minmax(60vh, auto) 15vh;
+	grid-template-rows: 15vh minmax(60vh, auto) 10vh;
 	background: #1d1d2f;
 	color: #eef;
 }
@@ -35,8 +35,12 @@ ul {
 	padding-inline-start: 0;
 }
 
-/* Link styling */
-
 a {
 	color: #51f5b6;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		gap: 5vmin;
+	}
 }

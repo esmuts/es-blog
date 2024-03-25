@@ -12,10 +12,13 @@
 </svelte:head>
 
 <div class="home-display">
+	<br />
 	<Quote />
-
+	<br />
+	<br />
+	<br />
 	<div class="blog-feed">
-		<center><h5>Recent Posts</h5></center>
+		<center><h5>--- Recent Posts ---</h5></center>
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
 		<ul>
 			{#each data.posts as post}
@@ -31,18 +34,6 @@
 </div>
 
 <style>
-	.home-display {
-		display: flex;
-		flex-direction: column;
-		gap: 15vmin;
-		
-	}
-
-	h5 {
-		border-top: 1px solid #eef;
-		border-bottom: 1px solid #eef;
-	}
-
 	ul {
 		max-height: 40vh;
 		padding-left: 5vmin;

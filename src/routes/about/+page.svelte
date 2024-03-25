@@ -16,11 +16,12 @@
 <center><img {src} alt="Eckard Smuts profile pic" /></center>
 
 <center><p>Contact: eckards@sun.ac.za</p></center>
+<br />
 
 <style>
 	img {
 		margin-top: 1rem;
-		width: 90%;
+		width: 95%;
 		max-width: 340px;
 	}
 

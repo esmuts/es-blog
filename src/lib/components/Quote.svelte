@@ -9,9 +9,6 @@
 
 <style>
 	article {
-		padding-top: 10vmin;
-		padding-bottom: 10vmin;
 		text-align: center;
-		
 	}
 </style>
