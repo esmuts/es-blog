@@ -8,6 +8,7 @@
 
 <ul>
 	{#each data.posts as post}
+	<p>{post.meta.image}</p>
 		
 			<li>
 				<div class="image-box">

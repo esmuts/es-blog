@@ -1,7 +1,7 @@
 <!-- Renders About page -->
 
 <script>
-	import src from '$lib/assets/early-morning-hike.jpg';
+	import src from '$lib/assets/images/early-morning-hike.jpg';
 </script>
 
 <p>
@@ -12,6 +12,8 @@
 	J.M. Coetzee. From time to time I write short stories, and I try to never be too far away from the
 	sea.
 </p>
+
+<p>{src}</p>
 
 <center><img {src} alt="Eckard Smuts profile pic" /></center>
 

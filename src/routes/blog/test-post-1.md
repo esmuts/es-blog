@@ -1,7 +1,7 @@
 ---
 title: On becoming animal in Eben Venter's Decima
 date: '2024-02-13'
-image: "/src/lib/assets/blog-images/leopold-ii-ivory-bust-oliver-leu-2020.png"
+image: "/src/lib/assets/images/leopold-ii-ivory-bust-oliver-leu-2020.png"
 alt: Leopold II ivory bust by Oliver Leu, 2020
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ---
