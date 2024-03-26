@@ -44,7 +44,7 @@
 
 - “Reformulating the ecological subject in Henrietta Rose-Innes’s _Nineveh_.” ACLA Conference, Georgetown University, 2019. ([conference presentation](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.acla.org/sites/default/files/files/ACLA_2019_ProgramGuide.pdf))
 
-- “Body, affect and social critique: J.M. Coetzee and sport.” Travelling with Coetzee: Other Arts, Other Languages Conference, Oxford University, 2017. ([conference](https://africainwords.com/2017/09/03/event-travelling-with-coetzee-29-sept-1-oct-2017-oxford/) presentation)
+- “Body, affect and social critique: J.M. Coetzee and sport.” Travelling with Coetzee: Other Arts, Other Languages Conference, Oxford University, 2017. ([conference presentation](https://africainwords.com/2017/09/03/event-travelling-with-coetzee-29-sept-1-oct-2017-oxford/))
 
 - “The ‘baboon boy’ and the making of the human in South Africa.” The Cultural Politics of Dirt in Africa Conference, Yale University, 2016. ([conference presentation](https://african.macmillan.yale.edu/event/workshop-cultural-politics-dirt-africa))
 

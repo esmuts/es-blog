@@ -13,8 +13,6 @@
 	sea.
 </p>
 
-<p>{src}</p>
-
 <center><img {src} alt="Eckard Smuts profile pic" /></center>
 
 <center><p>Contact: eckards@sun.ac.za</p></center>

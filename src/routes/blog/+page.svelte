@@ -8,21 +8,18 @@
 
 <ul>
 	{#each data.posts as post}
-	<p>{post.meta.image}</p>
-		
-			<li>
-				<div class="image-box">
-					<img src={post.meta.image} alt={post.meta.alt} />
-				</div>
-				<div>
-					<i><small>{post.meta.date}</small></i>
-					<br />
-					<a href={post.path}>
-						{post.meta.title}
-					</a>
-				</div>
-			</li>
-		
+		<li>
+			<div class="image-box">
+				<img src={post.meta.image} alt={post.meta.alt} />
+			</div>
+			<div>
+				<i><small>{post.meta.date}</small></i>
+				<br />
+				<a href={post.path}>
+					{post.meta.title}
+				</a>
+			</div>
+		</li>
 	{/each}
 </ul>
 <br />

@@ -1,5 +1,5 @@
 <script>
-	import hamburgerSVG from '$lib/assets/svg/bars-solid.svg';
+	import menuSVG from '$lib/assets/svg/three-dots.svg';
 	import xSVG from '$lib/assets/svg/xmark-solid.svg';
 
 	// Useful to have menu status as store, so it can be used in different
@@ -25,7 +25,7 @@
 	<div class="mobile-menu-icon">
 		{#if !$menuIsOpen}
 			<button aria-pressed={$menuIsOpen} on:click={toggleMenu}
-				><img class="burger-menu-icon" src={hamburgerSVG} alt="open menu" /></button
+				><img class="burger-menu-icon" src={menuSVG} alt="open menu" /></button
 			>
 		{:else}
 			<button class="x-menu-icon" aria-pressed={$menuIsOpen} on:click={toggleMenu}
@@ -62,7 +62,7 @@
 		z-index: 10;
 		top: 5vmin;
 		right: 5vmin;
-		width: 7vmin;
+		width: 9vmin;
 		background: transparent !important;
 		color: inherit;
 		padding: 0;

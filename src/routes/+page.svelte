@@ -13,6 +13,7 @@
 
 <div class="home-display">
 	<br />
+	<br />
 	<Quote />
 	<br />
 	<br />
@@ -36,8 +37,6 @@
 <style>
 	ul {
 		max-height: 40vh;
-		padding-left: 5vmin;
-		padding-right: 5vmin;
 		overflow: scroll;
 		scrollbar-width: 0;
 	}
@@ -60,4 +59,11 @@
 	a {
 		text-decoration: none;
 	}
+
+@media screen and (min-width: 1024px) {
+	.blog-feed {
+		padding-left: 5vmin;
+		padding-right: 5vmin;
+	}
+}
 </style>
