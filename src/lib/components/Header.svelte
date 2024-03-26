@@ -24,6 +24,7 @@
 		grid-row: 1;
 		margin-top: 5vmin;
 		display: flex;
+		gap: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}
