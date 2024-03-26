@@ -18,6 +18,7 @@
 	<br />
 	<br />
 	<br />
+	<br />
 	<div class="blog-feed">
 		<center><h5>--- Recent Posts ---</h5></center>
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
