@@ -1,7 +1,7 @@
 <!-- Renders About page -->
 
 <script>
-	import src from '$lib/assets/images/early-morning-hike.jpg';
+	import src from '$lib/images/early-morning-hike.jpg';
 </script>
 
 <p>
