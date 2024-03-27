@@ -12,13 +12,7 @@
 </svelte:head>
 
 <div class="home-display">
-	<br />
-	<br />
 	<Quote />
-	<br />
-	<br />
-	<br />
-	<br />
 	<div class="blog-feed">
 		<center><h5>--- Recent Posts ---</h5></center>
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
@@ -36,6 +30,13 @@
 </div>
 
 <style>
+	.home-display {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100%;
+	}
+
 	ul {
 		max-height: 40vh;
 		overflow: scroll;
@@ -61,10 +62,10 @@
 		text-decoration: none;
 	}
 
-@media screen and (min-width: 1024px) {
-	.blog-feed {
-		padding-left: 5vmin;
-		padding-right: 5vmin;
+	@media screen and (min-width: 1024px) {
+		.blog-feed {
+			padding-left: 5vmin;
+			padding-right: 5vmin;
+		}
 	}
-}
 </style>
