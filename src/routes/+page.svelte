@@ -19,7 +19,7 @@
 		<ul>
 			{#each data.posts as post}
 				<li>
-					<i><small>{post.meta.date}</small></i>
+					<small>{post.meta.date}</small>
 					<a href={post.path}>
 						{post.meta.title}
 					</a>
@@ -38,8 +38,10 @@
 	}
 
 	ul {
-		max-height: 40vh;
-		overflow: scroll;
+		list-style-type: disc;
+		padding-inline-start: 4vmin;
+		max-height: 10vh;
+		overflow-y: scroll;
 		scrollbar-width: 0;
 	}
 

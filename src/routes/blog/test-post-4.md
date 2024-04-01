@@ -1,7 +1,7 @@
 ---
 title: Test Post Three
 date: '2024-02-13'
-image: "/blog-images/endless-summer.png"
+image: "/blog-images/clint-eastwood.png"
 alt: No image here yet
 ---
 

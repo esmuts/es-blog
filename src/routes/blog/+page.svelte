@@ -2,49 +2,42 @@
 <script>
 	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
-	console.log(data.posts[0].meta.image)
+	console.log(data.posts[0].meta.image);
 </script>
 
-<h3>Blog Posts</h3>
+<center><h3>Blog Feed</h3></center>
 
-<ul>
+<div class="blog-posts-display">
 	{#each data.posts as post}
-		<li>
-			<div class="image-box">
-				<img src={post.meta.image} alt={post.meta.alt} />
-			</div>
-			<div>
-				<i><small>{post.meta.date}</small></i>
-				<br />
-				<a href={post.path}>
-					{post.meta.title}
-				</a>
-			</div>
-		</li>
+		<div class="image-box">
+			<a href={post.path}><img src={post.meta.image} alt={post.meta.alt} /></a>
+		</div>
 	{/each}
-</ul>
-<br />
+</div>
 
 <style>
-	li {
-		width: 100%;
-		display: flex;
-		align-items: center;
-		gap: 1rem;
+	.blog-posts-display {
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
 	}
 
 	.image-box {
-		width: 40px;
-		min-width: 40px;
+		padding: 2vmin;
 	}
 
 	img {
 		object-fit: cover;
-		height: 100%;
 		width: 100%;
+		aspect-ratio: 1/1;
 	}
 
 	a {
 		text-decoration: none;
+	}
+
+	@media screen and (min-width: 768px) {
+		.blog-posts-display {
+			grid-template-columns: repeat(4, 25%);
+		}
 	}
 </style>

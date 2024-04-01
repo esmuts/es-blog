@@ -6,7 +6,7 @@
 body {
 	font-family: 'Atkinson Hyperlegible';
 	font-size: calc(1rem + 0.25vh);
-	max-width: 1024px;
+	max-width: 840px;
 	min-width: 320px;
 	min-height: 100vh;
 	margin: 0 auto;
@@ -20,8 +20,8 @@ body {
 
 main {
 	grid-row: 2;
-	padding-left: 6vmin;
-	padding-right: 6vmin;
+	padding-left: 5vmin;
+	padding-right: 5vmin;
 	display: flex;
 	flex-direction: column;
 }

@@ -1,6 +1,8 @@
 ---
 title: Test Post Two
 date: '2024-02-13'
+image: "/blog-images/lorem-ipsum.png"
+alt: No image here yet
 ---
 
 # Here's another test blog

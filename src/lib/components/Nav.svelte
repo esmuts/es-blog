@@ -114,7 +114,7 @@
 
 		nav {
 			left: 0;
-			width: 100vw;
+			width: 100%;
 			height: 10vmin;
 			display: flex;
 			align-items: center;
