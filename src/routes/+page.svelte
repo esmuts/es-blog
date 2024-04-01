@@ -40,7 +40,7 @@
 	ul {
 		list-style-type: disc;
 		padding-inline-start: 4vmin;
-		max-height: 10vh;
+		max-height: 40vmin;
 		overflow-y: scroll;
 		scrollbar-width: 0;
 	}
@@ -62,5 +62,26 @@
 
 	a {
 		text-decoration: none;
+	}
+
+	@media screen and (min-width: 768px) {
+		/*
+		.blog-feed {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 25vw;
+			padding: 5vmin;
+			background: #51f5b6;
+			color: #1d1d2f
+		}
+
+
+
+		a {
+			color: inherit;
+		}
+		*/
 	}
 </style>

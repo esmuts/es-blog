@@ -4,16 +4,19 @@
 export async function load({ params }) {
 	try {
 		const post = await import(`../${params.slug}.md`);
-		const { title, date, image, alt, teaser } = post.metadata;
+		const { title, date, url, image, credit, ogImage, alt, description } = post.metadata;
 		const content = post.default;
 
 		return {
 			content,
 			title,
 			date,
+			url,
 			image,
+			credit,
+			ogImage,
 			alt,
-			teaser
+			description
 		};
 	} catch (e) {
 		console.log(e);

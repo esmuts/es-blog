@@ -37,6 +37,7 @@
 		<li><a href="/"><strong>Home</strong></a></li>
 		<li><a href="/about"><strong>About</strong></a></li>
 		<li><a href="/academic"><strong>Academic</strong></a></li>
+		<li><a href="/talks"><strong>Talks</strong></a></li>
 		<li><a href="/fiction"><strong>Fiction</strong></a></li>
 		<li><a href="/blog"><strong>Blog</strong></a></li>
 	</ul>
