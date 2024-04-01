@@ -1,4 +1,4 @@
-### Invited Talks and Conference Presentations
+### Talks and Presentations
 
 - "Extractive Violence and Elemental Language in Ishmael Beah's _The Radiance of Tomorrow_." Research Seminar, Stellenbosch University, 2024. ([invited talk](https://www0.sun.ac.za/english/blog/2024/02/26/research-seminar-2/))
 
