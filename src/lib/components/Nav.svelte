@@ -60,9 +60,9 @@
 	button {
 		position: fixed;
 		z-index: 10;
-		top: 5vmin;
+		top: 4vmin;
 		right: 4vmin;
-		width: 5vmin;
+		width: 4vmin;
 		background: transparent !important;
 		color: inherit;
 		padding: 0;

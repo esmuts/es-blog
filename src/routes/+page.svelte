@@ -61,11 +61,4 @@
 	a {
 		text-decoration: none;
 	}
-
-	@media screen and (min-width: 1024px) {
-		.blog-feed {
-			padding-left: 5vmin;
-			padding-right: 5vmin;
-		}
-	}
 </style>
