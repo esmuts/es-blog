@@ -18,11 +18,11 @@
 <style>
 	.blog-posts-display {
 		display: grid;
-		grid-template-columns: repeat(2, 50%);
+		grid-template-columns: repeat(3, 33%);
 	}
 
 	.image-box {
-		padding: 2vmin;
+		padding: 1vmin;
 	}
 
 	img {
