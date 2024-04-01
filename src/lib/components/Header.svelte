@@ -22,9 +22,8 @@
 <style>
 	header {
 		grid-row: 1;
-		margin-top: 5vmin;
 		display: flex;
-		gap: 5vmin;
+		margin-top: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}

@@ -1,5 +1,5 @@
 <script>
-	import menuSVG from '$lib/assets/svg/three-dots-fat.svg';
+	import menuSVG from '$lib/assets/svg/bars-solid.svg';
 	import xSVG from '$lib/assets/svg/xmark-solid.svg';
 
 	// Useful to have menu status as store, so it can be used in different
@@ -62,7 +62,7 @@
 		z-index: 10;
 		top: 5vmin;
 		right: 4vmin;
-		width: 7vmin;
+		width: 5vmin;
 		background: transparent !important;
 		color: inherit;
 		padding: 0;
