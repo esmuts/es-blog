@@ -2,7 +2,6 @@
 <script>
 	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
-	console.log(data.posts[0].meta.image);
 </script>
 
 <center><h3>Blog Feed</h3></center>

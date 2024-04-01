@@ -5,7 +5,6 @@
 	// Toggles hamburger menu
 	const toggleMenu = () => {
 		menuIsOpen.set(!$menuIsOpen);
-		console.log($menuIsOpen);
 	};
 
 	// Hides hamburger menu
