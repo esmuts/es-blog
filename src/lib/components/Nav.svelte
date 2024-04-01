@@ -93,7 +93,7 @@
 		align-items: end;
 		gap: 2vmin;
 		padding-right: 4vmin;
-		padding-top: 30vmin;
+		padding-top: 20vmin;
 		color: #1d1d2f;
 		transition: width 0.2s ease;
 	}
