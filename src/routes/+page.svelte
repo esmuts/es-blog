@@ -14,7 +14,7 @@
 
 <div class="home-display">
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
-	
+
 	<Quote />
 </div>
 <br />
@@ -40,7 +40,6 @@
 	.home-display {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
 		height: 100%;
 	}
 

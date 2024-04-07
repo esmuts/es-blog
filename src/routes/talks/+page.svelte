@@ -2,5 +2,6 @@
 	import Talks from './talks.md';
 </script>
 
-	<Talks />
-	<br />
+<br />
+<Talks />
+<br />

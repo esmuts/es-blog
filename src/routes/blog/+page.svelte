@@ -4,6 +4,7 @@
 	export let data;
 </script>
 
+<br />
 <center><h3>Blog Feed</h3></center>
 
 <div class="blog-posts-display">

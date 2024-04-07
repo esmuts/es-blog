@@ -29,7 +29,6 @@
 	header {
 		display: flex;
 		margin-top: 5vmin;
-		margin-bottom: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}
@@ -54,11 +53,10 @@
 	@media screen and (min-width: 768px) {
 		header {
 			margin-top: 5vmin;
-			
+			margin-bottom: 5vmin;
 		}
 
 		.big-title {
-			
 			font-size: calc(2rem + 3vh);
 		}
 		.small-title {
