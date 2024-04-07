@@ -35,10 +35,10 @@
 	</div>
 	<ul class:show-list-items={$menuIsOpen}>
 		<li><a href="/"><strong>Home</strong></a></li>
-		<li><a href="/about"><strong>About</strong></a></li>
 		<li><a href="/academic"><strong>Academic</strong></a></li>
 		<li><a href="/talks"><strong>Talks</strong></a></li>
 		<li><a href="/fiction"><strong>Fiction</strong></a></li>
+		<li><a href="/about"><strong>About</strong></a></li>
 		<li><a href="/blog"><strong>Blog</strong></a></li>
 	</ul>
 </nav>
@@ -46,6 +46,7 @@
 <style>
 	nav {
 		position: fixed;
+		z-index: 5;
 		top: 0;
 		bottom: 0;
 		right: 0;
@@ -109,6 +110,20 @@
 	}
 
 	@media screen and (min-width: 768px) {
+		.menu-open {
+			width: 20vmin;
+		}
+
+		button {
+			right: 3vmin;
+		}
+
+		ul {
+			padding-right: 3vmin;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
 		.mobile-menu-icon {
 			display: none;
 		}

@@ -4,6 +4,7 @@
 	export let data;
 </script>
 
+<br />
 <center><h3>Blog Feed</h3></center>
 
 <div class="blog-posts-display">
@@ -13,6 +14,7 @@
 		</div>
 	{/each}
 </div>
+<br />
 
 <style>
 	.blog-posts-display {
@@ -22,6 +24,7 @@
 
 	.image-box {
 		padding: 1vmin;
+		position: relative;
 	}
 
 	img {

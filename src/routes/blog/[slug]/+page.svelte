@@ -22,6 +22,7 @@
 <!-- Renders a blog post -->
 
 <article>
+	<br />
 	<h1>{data.title}</h1>
 	<p><i>Published: {data.date}</i></p>
 	<div class="image-box">

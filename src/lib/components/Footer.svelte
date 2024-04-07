@@ -33,11 +33,9 @@
 <style>
 
 	footer {
-		grid-row: 3;
+		margin-top: 10vmin;
 		display: flex;
 		justify-content: center;
-		align-items: center;
-
 	}
 
 	ul {

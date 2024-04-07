@@ -2,6 +2,7 @@
 
 <script>
 	import Quote from '$lib/components/Quote.svelte';
+	import src from '$lib/images/profile-main.jpeg';
 
 	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
@@ -12,6 +13,7 @@
 </svelte:head>
 
 <div class="home-display">
+	<center><img {src} alt="Eckard Smuts profile pic" /></center>
 	<Quote />
 	<div class="blog-feed">
 		<center><h5>--- Recent Posts ---</h5></center>
@@ -27,6 +29,7 @@
 			{/each}
 		</ul>
 	</div>
+	<br />
 </div>
 
 <style>
@@ -35,6 +38,12 @@
 		flex-direction: column;
 		justify-content: space-around;
 		height: 100%;
+	}
+
+	img {
+		margin-top: 2rem;
+		width: 95%;
+		max-width: 340px;
 	}
 
 	ul {

@@ -2,6 +2,8 @@
 	import Nav from '$lib/components/Nav.svelte';
 	import { menuIsOpen } from '../assets/js/store.js';
 
+	export let currentPath = '/';
+
 	// Toggles hamburger menu
 	const toggleMenu = () => {
 		menuIsOpen.set(!$menuIsOpen);
@@ -14,21 +16,33 @@
 </script>
 
 <header>
-	<a class="title" href="/" on:click={hideMenu}>eckard smuts</a>
+	{#if currentPath == '/'}
+		<a class="big-title" href="/" on:click={hideMenu}>eckard smuts</a>
+	{:else}
+		<a class="small-title" href="/" on:click={hideMenu}>e.smuts</a>
+	{/if}
+
 	<Nav />
 </header>
 
 <style>
 	header {
-		grid-row: 1;
 		display: flex;
 		margin-top: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}
 
-	.title {
+	.big-title {
 		font-size: calc(2rem + 2vh);
+	}
+
+	.small-title {
+		font-size: calc(1rem + 1.25vh);
+		position: absolute;
+		z-index: 10;
+		top: 2.5vmin;
+		left: 4vmin;
 	}
 
 	a {

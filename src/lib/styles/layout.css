@@ -12,14 +12,11 @@ body {
 	margin: 0 auto;
 	padding: 5vmin;
 	line-height: 1.5;
-	display: grid;
-	grid-template-rows: 15vh minmax(60vh, auto) 10vh;
 	background: #1d1d2f;
 	color: #eef;
 }
 
 main {
-	grid-row: 2;
 	padding-left: 5vmin;
 	padding-right: 5vmin;
 	display: flex;
