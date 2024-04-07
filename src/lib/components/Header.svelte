@@ -29,24 +29,41 @@
 	header {
 		display: flex;
 		margin-top: 5vmin;
+		margin-bottom: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.big-title {
+		margin-top: 5vmin;
 		font-size: calc(2rem + 2vh);
 	}
 
 	.small-title {
-		font-size: calc(1rem + 1.25vh);
 		position: absolute;
 		z-index: 10;
-		top: 2.5vmin;
+		top: 4vmin;
 		left: 4vmin;
 	}
 
 	a {
 		text-decoration: none;
 		color: inherit;
+	}
+
+	@media screen and (min-width: 768px) {
+		header {
+			margin-top: 5vmin;
+			
+		}
+
+		.big-title {
+			
+			font-size: calc(2rem + 3vh);
+		}
+		.small-title {
+			font-size: calc(1rem + 0.75vh);
+			top: 3.5vmin;
+		}
 	}
 </style>

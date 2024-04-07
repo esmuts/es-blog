@@ -1,4 +1,4 @@
-### Selected Publications
+### Publications
 
 - "Life & Times of Michael K." _The Bloomsbury Handbook to J.M. Coetzee_, 2023. ([book chapter](https://www.bloomsbury.com/uk/bloomsbury-handbook-to-j-m-coetzee-9781350152052/))
 

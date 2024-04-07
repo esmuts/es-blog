@@ -2,7 +2,7 @@
 
 <script>
 	import Quote from '$lib/components/Quote.svelte';
-	import src from '$lib/images/profile-main.jpeg';
+	import src from '$lib/images/profile-square.webp';
 
 	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
 	export let data;
@@ -14,23 +14,27 @@
 
 <div class="home-display">
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
+	
 	<Quote />
-	<div class="blog-feed">
-		<center><h5>--- Recent Posts ---</h5></center>
-		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
-		<ul>
-			{#each data.posts as post}
-				<li>
-					<small>{post.meta.date}</small>
-					<a href={post.path}>
-						{post.meta.title}
-					</a>
-				</li>
-			{/each}
-		</ul>
-	</div>
-	<br />
 </div>
+<br />
+<div class="blog-feed">
+	<center><h5>-- Recent Posts --</h5></center>
+	<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
+	<ul>
+		{#each data.posts as post}
+			<li>
+				<small>{post.meta.date}</small>
+				<small
+					><a href={post.path}>
+						{post.meta.title}
+					</a></small
+				>
+			</li>
+		{/each}
+	</ul>
+</div>
+<br />
 
 <style>
 	.home-display {
@@ -42,7 +46,7 @@
 
 	img {
 		margin-top: 2rem;
-		width: 95%;
+		width: 100%;
 		max-width: 340px;
 	}
 
@@ -71,26 +75,5 @@
 
 	a {
 		text-decoration: none;
-	}
-
-	@media screen and (min-width: 768px) {
-		/*
-		.blog-feed {
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			width: 25vw;
-			padding: 5vmin;
-			background: #51f5b6;
-			color: #1d1d2f
-		}
-
-
-
-		a {
-			color: inherit;
-		}
-		*/
 	}
 </style>

@@ -9,7 +9,6 @@
 
 <style>
 	article {
-		
 		text-align: center;
 		padding: 5vmin;
 	}
