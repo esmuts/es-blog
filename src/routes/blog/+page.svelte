@@ -18,9 +18,10 @@
 
 <style>
 	.blog-posts-display {
-
 		display: grid;
+		gap: 1vmin;
 		grid-template-columns: repeat(3, 33%);
+		grid-template-rows: auto;
 	}
 
 	.image-box {
