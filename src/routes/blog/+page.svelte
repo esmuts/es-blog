@@ -18,17 +18,18 @@
 
 <style>
 	.blog-posts-display {
+
 		display: grid;
 		grid-template-columns: repeat(3, 33%);
 	}
 
 	.image-box {
-		padding: 1vmin;
 		position: relative;
 	}
 
 	img {
 		object-fit: cover;
+		height: 100%;
 		width: 100%;
 		aspect-ratio: 1/1;
 	}

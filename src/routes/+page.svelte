@@ -15,6 +15,7 @@
 <div class="home-display">
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
 
+	<br />
 	<Quote />
 </div>
 <br />
