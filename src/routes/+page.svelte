@@ -25,12 +25,11 @@
 	<ul>
 		{#each data.posts as post}
 			<li>
-				<small>{post.meta.date}</small>
-				<small
-					><a href={post.path}>
+				{post.meta.date}
+				
+					<a href={post.path}>
 						{post.meta.title}
-					</a></small
-				>
+					</a>
 			</li>
 		{/each}
 	</ul>

@@ -6,42 +6,81 @@
 
 <br />
 <center><h3>Blog Feed</h3></center>
+<br />
 
-<div class="blog-posts-display">
-	{#each data.posts as post}
-		<div class="image-box">
-			<a href={post.path}><img src={post.meta.image} alt={post.meta.alt} /></a>
-		</div>
-	{/each}
+<div class="blog-list-display">
+	<ul>
+		<hr />
+		{#each data.posts as post}
+		<a href={post.path}>	
+		<li>
+				
+				<img src={post.meta.image} alt={post.meta.alt} />
+				<h5>
+					{post.meta.title}
+					<br />
+					<small class="post-date">{post.meta.date}</small>
+				<br />
+				</h5>
+				
+			</li>
+		</a>
+			<hr />
+		{/each}
+	</ul>
 </div>
 <br />
 
 <style>
-	.blog-posts-display {
-		display: grid;
-		gap: 1vmin;
-		grid-template-columns: repeat(3, 33%);
-		grid-template-rows: auto;
+	ul {
+		list-style-type: none;
 	}
 
-	.image-box {
-		position: relative;
+	li {
+		display: flex;
+		gap: 3vmin;
+		max-height: 20vmin;
+		margin-top: 4vmin;
+		margin-bottom: 4vmin;
+		align-items: center;
+		overflow-y: hidden;
 	}
 
 	img {
 		object-fit: cover;
-		height: 100%;
-		width: 100%;
-		aspect-ratio: 1/1;
+		height: 20vmin;
+		aspect-ratio: 1 / 1;
+	}
+
+	.post-date {
+		font-weight: 400;
 	}
 
 	a {
 		text-decoration: none;
+		color: inherit;
+	}
+
+	hr {
+		background-color: #eef;
+		margin-top: 4vmin;
+		margin-bottom: 4vmin;
 	}
 
 	@media screen and (min-width: 768px) {
-		.blog-posts-display {
-			grid-template-columns: repeat(4, 25%);
+		li {
+			max-height: 10vmin;
+			margin-top: 2vmin;
+			margin-bottom: 2vmin;
+		}
+
+		img {
+			height: 10vmin;
+		}
+
+		hr {
+			margin-top: 0;
+			margin-bottom: 0;
 		}
 	}
 </style>
