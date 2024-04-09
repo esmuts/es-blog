@@ -20,7 +20,7 @@
 </div>
 <br />
 <div class="blog-feed">
-	<center><h5>-- Recent Posts --</h5></center>
+	<center><h4>-- Recent Posts --</h4></center>
 	<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
 	<ul>
 		{#each data.posts as post}
