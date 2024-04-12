@@ -18,7 +18,7 @@
 <div class="home-display">
 	<Quote />
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
-</div>
+
 
 <div class="blog-feed">
 	<center><h4>-- Recent Posts --</h4></center>
@@ -34,24 +34,20 @@
 		{/each}
 	</ul>
 </div>
+</div>
 
 
 <style>
 	.home-display {
 		display: flex;
 		flex-direction: column;
+		gap: 10vmin;
 		height: 100%;
 	}
 
 	img {
-		margin-top: 2rem;
 		width: 100%;
 		max-width: 340px;
-	}
-
-	.blog-feed {
-		margin-top: 10vmin;
-		margin-bottom: 5vmin;
 	}
 
 	ul {

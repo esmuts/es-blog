@@ -33,7 +33,7 @@
 <style>
 
 	footer {
-		margin-top: 10vmin;
+		margin-top: 5rem;
 		display: flex;
 		justify-content: center;
 	}

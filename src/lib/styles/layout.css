@@ -17,6 +17,8 @@ body {
 }
 
 main {
+	margin-top: 10vmin;
+	margin-bottom: 10vmin;
 	padding-left: 5vmin;
 	padding-right: 5vmin;
 	display: flex;

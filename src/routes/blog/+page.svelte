@@ -23,12 +23,8 @@
 		<hr />
 	{/each}
 </ul>
-<br />
 
 <style>
-	h3 {
-		margin-top: 10vmin;
-	}
 	ul {
 		list-style-type: none;
 	}
@@ -67,7 +63,9 @@
 	@media screen and (min-width: 768px) {
 		ul {
 			width: 80%;
-			margin: 0 auto;
+			align-self: center;
+			margin-top: 2vmin;
+			
 		}
 
 		li {
