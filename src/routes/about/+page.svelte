@@ -23,7 +23,4 @@
 		width: 100%;
 		max-width: 340px;
 	}
-
-	@media screen and (min-width: 768px) {
-	}
 </style>

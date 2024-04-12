@@ -19,23 +19,21 @@
 	<Quote />
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
 
-
-<div class="blog-feed">
-	<center><h4>-- Recent Posts --</h4></center>
-	<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
-	<ul>
-		{#each data.posts as post}
-			<li>
-				<a href={post.path}>
-					{post.meta.title}
-				</a>
-				<small>({post.meta.date})</small>
-			</li>
-		{/each}
-	</ul>
+	<div class="blog-feed">
+		<center><h4>-- Recent Posts --</h4></center>
+		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
+		<ul>
+			{#each data.posts as post}
+				<li>
+					<a href={post.path}>
+						{post.meta.title}
+					</a>
+					<small>({post.meta.date})</small>
+				</li>
+			{/each}
+		</ul>
+	</div>
 </div>
-</div>
-
 
 <style>
 	.home-display {
@@ -47,23 +45,12 @@
 
 	img {
 		width: 100%;
-		max-width: 340px;
+		max-width: 420px;
 	}
 
 	ul {
 		list-style-type: disc;
 		padding-inline-start: 4vmin;
-	}
-
-	/* Hiding scrollbar from https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-
-	ul::-webkit-scrollbar {
-		display: none; /* Hide scrollbar for Chrome, Safari, Opera */
-	}
-
-	ul::-webkit-scrollbar {
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
 	}
 
 	li {
