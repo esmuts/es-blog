@@ -4,7 +4,8 @@
 	import src from '$lib/images/early-morning-hike.jpg';
 </script>
 
-<br />
+<h3></h3>
+
 <p>
 	I'm a Lecturer in the Department of English at Stellenbosch University. My research explores the
 	confluence of social and ecological issues in literary texts, focusing especially on postcolonial
@@ -16,9 +17,7 @@
 
 <center><img {src} alt="Eckard Smuts profile pic" /></center>
 
-<br />
 <center><p>Contact: eckards@sun.ac.za</p></center>
-<br />
 
 <style>
 	img {

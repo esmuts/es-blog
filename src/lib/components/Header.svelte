@@ -29,14 +29,13 @@
 	header {
 		display: flex;
 		margin-top: 5vmin;
-		margin-bottom: 5vmin;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.big-title {
 		margin-top: 5vmin;
-		font-size: calc(2rem + 2vh);
+		font-size: calc(2rem + 2.5vh);
 	}
 
 	.small-title {

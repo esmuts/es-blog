@@ -4,10 +4,7 @@
 	export let data;
 </script>
 
-<br />
-<center><h3>Blog Feed
-	<br/>👷‍♀️🚧 (work-in-progress) 🚧👷‍♂️</h3></center>
-<br />
+<center><h3>Blog Feed</h3></center>
 
 <ul>
 	<hr />
@@ -29,6 +26,9 @@
 <br />
 
 <style>
+	h3 {
+		margin-top: 10vmin;
+	}
 	ul {
 		list-style-type: none;
 	}

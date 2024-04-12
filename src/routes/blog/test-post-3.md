@@ -1,6 +1,6 @@
 ---
 title: Test Post Three
-date: '2024-02-13'
+date: Dec 23, 2023
 image: "/blog-images/endless-summer.png"
 alt: No image here yet
 ---

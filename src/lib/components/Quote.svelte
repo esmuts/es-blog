@@ -10,6 +10,7 @@
 <style>
 	article {
 		text-align: center;
+		margin-top: 5vmin;
 		padding: 5vmin;
 	}
 </style>

@@ -1,6 +1,6 @@
 ---
 title: Test Post Two
-date: '2024-02-13'
+date: June 6, 2023
 image: "/blog-images/lorem-ipsum.png"
 alt: No image here yet
 ---
