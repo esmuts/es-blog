@@ -1,4 +1,4 @@
-/* Loads first 10 blog posts for use in feed on home page. */
+/* Loads first 5 blog posts for use in feed on home page. */
 
 // 'fetch' is a special argument available to the 'load' function in SvelteKit.
 export const load = async ({ fetch }) => {
@@ -6,8 +6,8 @@ export const load = async ({ fetch }) => {
     const posts = await response.json();
     
     // Truncates blog post array down to 10 if it has more entries.
-    if (posts.length > 10) {
-        posts.length = 10;
+    if (posts.length > 5) {
+        posts.length = 5;
     }
 
     return {

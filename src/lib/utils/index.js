@@ -1,8 +1,11 @@
-// I'm basically just copying this from
-// https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
-// A lot of the complexity here has to do with the fact that multiple promises
-// need to be fulfilled (i.e. all the markdown files need to be imported).
+/*	Fetches all the markdown posts,
+	returns all metadata and paths in an array.
 
+	I'm basically just copying this from
+	https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
+	A lot of the complexity here has to do with the fact that multiple promises
+	need to be fulfilled (i.e. all the markdown files need to be imported).
+*/
 export const fetchMarkdownPosts = async () => {
 	// import.meta.glob is a Vite function that allows importing multiple
 	// modules from the file system.

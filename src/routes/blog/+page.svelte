@@ -7,7 +7,6 @@
 <center><h3>Blog Feed</h3></center>
 
 <ul>
-	<hr />
 	{#each data.posts as post}
 		<a href={post.path}>
 			<li>
@@ -18,9 +17,9 @@
 					<small class="post-date">{post.meta.date}</small>
 					<br />
 				</h5>
-			</li>
-		</a>
-		<hr />
+			</li></a
+		>
+		<center><div class="border-line"></div></center>
 	{/each}
 </ul>
 
@@ -33,8 +32,8 @@
 		display: flex;
 		gap: 3vmin;
 		max-height: 20vmin;
-		margin-top: 4vmin;
-		margin-bottom: 4vmin;
+		margin-top: 5vmin;
+		margin-bottom: 5vmin;
 		align-items: center;
 		overflow-y: hidden;
 	}
@@ -54,10 +53,10 @@
 		color: inherit;
 	}
 
-	hr {
-		background-color: #eef;
-		margin-top: 4vmin;
-		margin-bottom: 4vmin;
+	.border-line {
+		width: 100%;
+		margin-top: 6vmin;
+		border-bottom: 1px solid #66667f;
 	}
 
 	@media screen and (min-width: 768px) {
@@ -65,7 +64,6 @@
 			width: 80%;
 			align-self: center;
 			margin-top: 2vmin;
-			
 		}
 
 		li {
@@ -78,9 +76,9 @@
 			height: 10vmin;
 		}
 
-		hr {
-			margin-top: 0;
-			margin-bottom: 0;
+		.border-line {
+			margin-top: 3vmin;
+			margin-bottom: 3vmin;
 		}
 	}
 </style>

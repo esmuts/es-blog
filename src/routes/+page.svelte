@@ -50,7 +50,7 @@
 
 	ul {
 		list-style-type: disc;
-		padding-inline-start: 4vmin;
+		padding-inline-start: 3vmin;
 	}
 
 	li {
