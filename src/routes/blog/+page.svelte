@@ -11,11 +11,11 @@
 		<a href={post.path}>
 			<li>
 				<img src={post.meta.image} alt={post.meta.alt} />
-				<h5>
+				<p>
 					{post.meta.title}
 					<br>
 					<small class="post-date">{post.meta.date}</small>
-				</h5>
+				</p>
 			</li></a
 		>
 		<center><div class="border-line"></div></center>
@@ -25,6 +25,7 @@
 <style>
 	ul {
 		list-style-type: none;
+		margin-top: 5vmin;
 	}
 
 	li {
@@ -42,7 +43,7 @@
 		aspect-ratio: 1 / 1;
 	}
 
-	h5 {
+	p {
 		margin-top: 0;
 		padding-top: 0;
 	}
@@ -79,7 +80,7 @@
 			height: 12vmin;
 		}
 
-		h5 {
+		p {
 			margin-top: 1vmin;
 			
 		}
