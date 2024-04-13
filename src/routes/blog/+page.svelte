@@ -13,9 +13,8 @@
 				<img src={post.meta.image} alt={post.meta.alt} />
 				<h5>
 					{post.meta.title}
-					<br />
+					<br>
 					<small class="post-date">{post.meta.date}</small>
-					<br />
 				</h5>
 			</li></a
 		>
@@ -32,9 +31,8 @@
 		display: flex;
 		gap: 3vmin;
 		max-height: 20vmin;
-		margin-top: 5vmin;
+		margin-top: 4vmin;
 		margin-bottom: 5vmin;
-		align-items: center;
 		overflow-y: hidden;
 	}
 
@@ -42,6 +40,11 @@
 		object-fit: cover;
 		height: 20vmin;
 		aspect-ratio: 1 / 1;
+	}
+
+	h5 {
+		margin-top: 0;
+		padding-top: 0;
 	}
 
 	.post-date {
@@ -67,18 +70,23 @@
 		}
 
 		li {
-			max-height: 10vmin;
+			max-height: 12vmin;
 			margin-top: 2vmin;
 			margin-bottom: 2vmin;
 		}
 
 		img {
-			height: 10vmin;
+			height: 12vmin;
+		}
+
+		h5 {
+			margin-top: 1vmin;
+			
 		}
 
 		.border-line {
 			margin-top: 3vmin;
-			margin-bottom: 3vmin;
+			
 		}
 	}
 </style>
