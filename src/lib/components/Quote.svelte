@@ -1,5 +1,5 @@
 <article>
-	<p>
+	<p class="text-quote">
 		<i
 			>"Dear future generations: Please accept our apologies. We were rolling drunk on petroleum."</i
 		>
