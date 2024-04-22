@@ -20,7 +20,10 @@
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
 
 	<div class="blog-feed">
-		<center><h4>-- Recent Posts --</h4></center>
+		<center
+			><h4>-- Recent Posts --</h4>
+			<p><strong><i>🚧 (Work-in-progress) 🚧</i></strong></p></center
+		>
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
 		<ul>
 			{#each data.posts as post}
