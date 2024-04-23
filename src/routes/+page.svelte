@@ -22,7 +22,7 @@
 	<div class="blog-feed">
 		<center
 			><h4>-- Recent Posts --</h4>
-			<p><strong><i>🚧 (Work-in-progress) 🚧</i></strong></p></center
+			<p><strong><i>🚧 Under Construction 🚧</i></strong></p></center
 		>
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
 		<ul>

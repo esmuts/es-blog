@@ -4,7 +4,7 @@
 	export let data;
 </script>
 
-<center><h3>Blog Feed</h3><p><strong><i>🚧 (Work-in-progress) 🚧</i></strong></p></center>
+<center><h3>Blog Feed</h3><p><strong><i>🚧 Under Construction 🚧</i></strong></p></center>
 
 <ul>
 	{#each data.posts as post}
