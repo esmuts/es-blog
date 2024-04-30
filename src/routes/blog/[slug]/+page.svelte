@@ -45,13 +45,4 @@
 		width: 100%;
 		max-width: 340px;
 	}
-
-	@media screen and (min-width: 768px) {
-		.image-box {
-			float: left;
-			padding-top: 1vmin;
-			padding-bottom: 1vmin;
-			margin-right: 5vmin;
-		}
-	}
 </style>

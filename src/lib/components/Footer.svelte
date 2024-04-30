@@ -34,7 +34,7 @@
 <style>
 
 	footer {
-		margin-top: 5rem;
+		margin-top: 10rem;
 	}
 
 	nav {

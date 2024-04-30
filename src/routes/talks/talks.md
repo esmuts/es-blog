@@ -1,5 +1,7 @@
 ### Talks and Presentations
 
+- "Planetary Coetzee." Dusklands 50, University of the Western Cape, Greatmore Humanities Campus, 2024. ([conference presentation](https://www.facebook.com/download/737216835248781/Dusklands50_finalprogramme.pdf?av=308500044&eav=Afal8BXCOUyUzyfEVejpVhSdvc0JpCP2eroOMy1bpYtcixtmjz-oAZddZAFIMwjwpCE&paipv=0&hash=AcqGlbhFR7Di7zHuzSg&__cft__[0]=AZWCeknonHsXceLHTm0SOo6sIvGW4WcfT8efdQllhfz9nBdC1yRayDe3DPMVI7A1q9qYQjGtYHVNRCdA5voCyB-iz2peXqcAUF0lclgq3AB49HpxJItkUHrdywB_F7Fi86NN1ZqK6Cr7WlOREjzKdpFkw-ns71oiTyypZlm_eeyLfsY-4FAPt0dXX9LcJVdjJs2--ZXREv7lEu3x4xv3qtuBikNOIsEYFkyrkOMkO7oIQQ&__tn__=H-R))
+
 - "Extractive Violence and Elemental Language in Ishmael Beah's _The Radiance of Tomorrow_." Research Seminar, Stellenbosch University, 2024. ([invited talk](https://www0.sun.ac.za/english/blog/2024/02/26/research-seminar-2/))
 
 - “Animated terrain: From allegory to eco-materialism in Karen Jennings’s _An Island_.” EACLALS Triennal Conference, Université Sorbonne Nouvelle, 2023. ([conference presentation](https://eaclals2023.sciencesconf.org/))

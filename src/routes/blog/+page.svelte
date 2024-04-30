@@ -4,7 +4,7 @@
 	export let data;
 </script>
 
-<center><h3>Blog Feed</h3><p><strong><i>🚧 Under Construction 🚧</i></strong></p></center>
+<center><h3>Blog Feed</h3></center>
 
 <ul>
 	{#each data.posts as post}
@@ -14,7 +14,7 @@
 				<p>
 					{post.meta.title}
 					<br>
-					<small class="post-date">{post.meta.date}</small>
+					<small class="post-date"><i>{post.meta.date}</i></small>
 				</p>
 			</li></a
 		>
@@ -46,10 +46,12 @@
 	p {
 		margin-top: 0;
 		padding-top: 0;
+		color: #51f5b6;
 	}
 
 	.post-date {
 		font-weight: 400;
+		color: #eef;
 	}
 
 	a {

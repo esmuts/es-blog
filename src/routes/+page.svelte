@@ -3,12 +3,9 @@
 <script>
 	import Quote from '$lib/components/Quote.svelte';
 	import src from '$lib/images/profile-square.webp';
-	/* 'data' is what is returned from +page.js -- built in with SvelteKit */
+	// 'data' is what is returned from +page.js -- built in with SvelteKit.
+	// In this case, the first five blog posts.
 	export let data;
-
-	// Date converstion:
-	// let date = new Date().toLocaleDateString('en-us', {year:"numeric", month:"short", day:"numeric"});
-	// console.log(date);
 </script>
 
 <svelte:head>
@@ -16,26 +13,22 @@
 </svelte:head>
 
 <div class="home-display">
-	
 	<Quote />
 
 	<center><img {src} alt="Eckard Smuts profile pic" /></center>
 
 	<p>
 		I'm a Lecturer in the Department of English at Stellenbosch University. My research explores the
-		confluence of social and ecological issues in literary texts, focusing especially on postcolonial
-		writing. Currently, I'm working on a book about alternative temporalities in a range of novels by
-		Southern African authors, including Zoë Wicomb, Bessie Head, Nadine Gordimer, Imraan Coovadia, and
-		J.M. Coetzee. From time to time I write short stories, and I try to never be too far away from the
-		sea.
+		confluence of social and ecological issues in literary texts, focusing especially on
+		postcolonial writing. Currently, I'm working on a book about alternative temporalities in a
+		range of novels by Southern African authors, including Zoë Wicomb, Bessie Head, Nadine Gordimer,
+		Imraan Coovadia, and J.M. Coetzee. From time to time I write short stories, and I try to never
+		be too far away from the sea.
 	</p>
 
 	<div class="blog-feed">
-		<center
-			><h3>-- Recent Blog Posts --</h3>
-			
-			</center
-		>
+		<center><h3>-- Recent Blog Posts --</h3></center>
+
 		<!-- This is copy pasted from the Blog +page.svelte -- refactor to component? -->
 		<ul>
 			{#each data.posts as post}
@@ -54,7 +47,7 @@
 	.home-display {
 		display: flex;
 		flex-direction: column;
-		gap: 5vmin;
+		gap: 10vmin;
 		height: 100%;
 	}
 
