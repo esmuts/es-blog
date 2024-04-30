@@ -6,6 +6,7 @@
 </script>
 
 <footer>
+	<center><p>Contact: eckards@sun.ac.za</p></center>
 	<nav>
 		<ul>
 			<li>
@@ -34,6 +35,9 @@
 
 	footer {
 		margin-top: 5rem;
+	}
+
+	nav {
 		display: flex;
 		justify-content: center;
 	}
