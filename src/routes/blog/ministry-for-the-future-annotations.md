@@ -10,9 +10,9 @@ description: Kim Stanley Robinson's hard sci-fi climate novel *The Ministry for 
 keywords: Kim Stanley Robinson, The Ministry for the Future, reading notes, climate change, cli-fi, climate fiction, utopian literature, utopia
 ---
 
-Kim Stanley Robinson's hard sci-fi climate novel _The Ministry for the Future_ is part of an Honours [course](https://www0.sun.ac.za/english/wp-content/uploads/2024/02/Honours-Prospectus-2024.pdf) I teach on utopian literature. When I first read it, I made a brief note for each of the book's 106 (!) short chapters, as a kind of map or navigation aid to help me in my teaching.
+Kim Stanley Robinson's hard sci-fi climate novel _The Ministry for the Future_ is part of an Honours [course](https://www0.sun.ac.za/english/wp-content/uploads/2024/02/Honours-Prospectus-2024.pdf) I teach on utopian literature. When I first read the book, I made a brief note for each of its 106 (!) short chapters, as a kind of map or navigation aid to help me in my teaching.
 
-I've decided to post it here, as my first blog post, in case anyone else finds it helpful.
+I've decided to post it here, as my first ever blog post, in case anyone finds it helpful.
 
 So here you go...
 
@@ -20,7 +20,7 @@ So here you go...
 
 ---
 
-### *KSR MftF Reading Notes*
+### _KSR MftF Reading Notes_
 
 Dedication - _For Frederic Jameson_ (cf. “harder to imagine the end of the world than the end of capitalism”)
 
@@ -247,4 +247,4 @@ They regarded her. There is resistance to it happening, they reminded her.
 
 <br>
 
-***
+---
