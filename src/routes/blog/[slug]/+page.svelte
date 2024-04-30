@@ -3,6 +3,9 @@
 <script>
 	// 'data' is automatically loaded from load function in '+page.js'.
 	export let data;
+
+	console.log(data.description);
+	console.log(data);
 </script>
 
 <!--
