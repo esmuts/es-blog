@@ -12,5 +12,6 @@
 		text-align: center;
 		padding-left: 5vmin;
 		padding-right: 5vmin;
+		margin-bottom: 5vmin;
 	}
 </style>

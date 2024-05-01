@@ -47,7 +47,7 @@
 	.home-display {
 		display: flex;
 		flex-direction: column;
-		gap: 10vmin;
+		gap: 5vmin;
 		height: 100%;
 	}
 
@@ -57,7 +57,7 @@
 	}
 
 	.blog-feed {
-		margin-top: 5vmin;
+		margin-top: 10vmin;
 	}
 
 	ul {
