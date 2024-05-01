@@ -1,18 +1,18 @@
 ---
 title: 'Reading Notes: The Ministry for the Future'
 date: April 30, 2024
-url: 'https://www.eckardsmuts.com/blog/ministry-for-the-future-notes'
-image: '/blog-images/zurich-switzerland.webp'
+url: https://www.eckardsmuts.com/blog/ministry-for-the-future-notes
+image: /blog-images/zurich-switzerland.webp
 credit: 'Zurich, Switzerland (photo: Manuel Bauer)'
-ogImage: 'https://www.eckardsmuts.com/blog-images/zurich-switzerland.webp'
-alt: 'A cool image about MftF'
+ogImage: https://www.eckardsmuts.com/blog-images/zurich-switzerland.webp
+alt: A cool image about MftF
 description: Kim Stanley Robinson's hard sci-fi climate novel The Ministry for the Future is part of an Honours course I teach on utopian literature. When I first read it, I made a brief note for each of the book's 106 (!) short chapters, as a kind of map or navigation aid to help me in my teaching.
 keywords: Kim Stanley Robinson, The Ministry for the Future, reading notes, climate change, cli-fi, climate fiction, utopian literature, utopia
 ---
 
 Kim Stanley Robinson's hard sci-fi climate novel _The Ministry for the Future_ is part of an Honours [course](https://www0.sun.ac.za/english/wp-content/uploads/2024/02/Honours-Prospectus-2024.pdf) I teach on utopian literature. When I first read the book, I made a brief note for each of its 106 (!) short chapters, as a kind of map or navigation aid to help me in my teaching.
 
-I've decided to post it here, as my first ever blog post, in case anyone finds it helpful.
+I've decided to post it here, as my first ever blog post, in case anyone else finds it helpful.
 
 So here you go...
 

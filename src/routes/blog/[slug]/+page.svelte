@@ -43,6 +43,6 @@
 
 	img {
 		width: 100%;
-		max-width: 340px;
+		max-width: 420px;
 	}
 </style>

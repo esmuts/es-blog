@@ -79,7 +79,7 @@
 		}
 
 		img {
-			height: 12vmin;
+			height: 10vmin;
 		}
 
 		p {
