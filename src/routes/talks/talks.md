@@ -1,6 +1,6 @@
 ### Talks and Presentations
 
-- “The Invisible South in J.M. Coetzee's _Dusklands_.” Writing From the South, Stellenbosch University, 2024 ([\*workshop presentation]())
+- “The Invisible South in J.M. Coetzee's _Dusklands_.” Writing From the South, Stellenbosch University, 2024. ([\*workshop presentation]())
 
 - “Extractive Violence, Elemental Language and Decolonial Ecology in Ishmael Beah’s _The Radiance of Tomorrow_.” Planetary Fiction: African Literature and Climate Change, Johannesburg Institute for Advanced Study, 2024. ([\*workshop presentation]())
 
