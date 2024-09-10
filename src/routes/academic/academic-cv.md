@@ -1,5 +1,7 @@
 ### Publications
 
+- "Short takes on disjointed times: literary form and social thought in Graham K. Riach’s _The Short Story After Apartheid_." _Safundi_, 2024 ([review essay](https://www.tandfonline.com/doi/full/10.1080/17533171.2024.2375848))
+
 - "Life & Times of Michael K." _The Bloomsbury Handbook to J.M. Coetzee_, 2023. ([book chapter](https://www.bloomsbury.com/uk/bloomsbury-handbook-to-j-m-coetzee-9781350152052/))
 
 - "Elemental Humanity in Bessie Head's _When Rain Clouds Gather_." _English Studies in Africa_, 2023. ([research article](https://www.tandfonline.com/doi/full/10.1080/00138398.2023.2128490))
