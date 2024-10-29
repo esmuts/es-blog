@@ -2,7 +2,7 @@
 
 <script>
 	import Quote from '$lib/components/Quote.svelte';
-	import src from '$lib/images/profile-smiling.jpg';
+	import src from '$lib/images/profile-sphinx.jpg';
 	// 'data' is what is returned from +page.js -- built in with SvelteKit.
 	// In this case, the first five blog posts.
 	export let data;
@@ -53,7 +53,7 @@
 
 	img {
 		width: 100%;
-		max-width: 420px;
+		/* max-width: 680px; */
 	}
 
 	.blog-feed {
@@ -72,4 +72,12 @@
 	a {
 		text-decoration: none;
 	}
+
+	/**
+	@media screen and (min-width: 768px) {
+		.home-display {		
+			
+		}
+	}
+	*/
 </style>
