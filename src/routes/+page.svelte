@@ -2,7 +2,7 @@
 
 <script>
 	import Quote from '$lib/components/Quote.svelte';
-	import src from '$lib/images/profile-mountain-bw.jpg';
+	import src from '$lib/images/es-profile-mountain.jpg';
 	// 'data' is what is returned from +page.js -- built in with SvelteKit.
 	// In this case, the first five blog posts.
 	export let data;
